@@ -1,0 +1,18 @@
+<html>
+<body style="background-color:powderblue;">
+{% if error %}  
+        <p><strong>Error</strong>: {{error}}</p>  
+    {% endif %}  
+<center><font color="white">ALERT SYSTEM</font></center>
+<br>
+<center>
+<hr>
+<strong>ALERT:</strong>
+<form method="post" action="/index">
+<input type="text" name="val">
+<input type="submit">
+</form>
+<hr>
+</center>
+</body>
+</html>
